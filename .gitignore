@@ -1,0 +1,52 @@
+# === PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.egg-info/
+*.egg
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.VENV/
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints/
+
+# === R / RStudio ===
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# === OS / GENERAL ===
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+Icon?               # macOS
+ehthumbs.db
+
+# === ONEDRIVE SYNC FILES ===
+*.tmp
+*.lnk
+*.~*
+
+# === VS CODE / IDEs ===
+.vscode/
+.idea/
+
+# === DATA / BACKUPS ===
+*.bak
+*.log
+*.csv~
+*.RData
+*.sqlite
+*.db
+
+# === OPTIONAL: DATA FOLDER ===
+# Uncomment below if you want to prevent pushing any local data
+# data/
